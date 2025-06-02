@@ -1,0 +1,99 @@
+Anypoint Platform Development: Fundamentals (ILT) - Snippets
+
+* MODULE 2 **********************************************************
+
+* Salesforce query
+SELECT Name, LastModifiedDate, BillingPostalCode
+FROM Account
+
+* MODULE 3 **********************************************************
+
+* Training: American Flights API client_id
+2b6e1d0a4bda4fb6a986766395f721ac
+
+* Training: American Flights API client_secret
+5727697f45b1491986d748F2A180C95C
+
+* Training: America Flights API web service URL
+http://ilt.mule-training.com/american/flights
+
+* American RESTful web service properties
+american:
+  host: "ilt.mule-training.com"
+  port: "80"
+  basepath: "/american"
+  protocol: "HTTP"
+  client_id:
+  client_secret:
+
+* United RESTful web service
+http://ilt.mule-training.com/united/flights
+or if using mulesoft-training-services.jar application:
+http://localhost:9090/united/flights
+
+* Training web service properties
+training:
+  host: "ilt.mule-training.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+
+* Delta SOAP web service WSDL
+http://ilt.mule-training.com/delta?wsdl
+or if using mulesoft-training-services.jar application:
+http://localhost:9191/delta?wsdl
+
+* Delta web service properties
+delta:
+  wsdl: "http://ilt.mule-training.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "DeltaFlightsServiceImplPort"
+or if using mulesoft-training-services.jar application:
+delta:
+  wsdl: "http://localhost:9191/delta?wsdl"
+  service: "TicketServiceService"
+  port: "DeltaFlightsServiceImplPort"
+
+* MODULE 4 **********************************************************
+
+* Validation expression
+#[['SFO','LAX','CLE','PDX','PDF'] contains vars.code]
+
+* Validation error message
+'Invalid destination' ++ ' ' ++ (vars.code default ' ')
+
+* MODULE 5 **********************************************************
+
+* Error type expression
+WSC:CONNECTIVITY, WSC:INVALID_WSDL
+
+* MODULE 7 *********************************************************
+
+* MUA Accounts URL
+http://ilt.mule-training.com/accounts/show
+or if using mulesoft-training-services.jar application:
+http://localhost:9090/accounts/show.html
+
+* MySQL database
+db:
+  host: "iltdb.mule-training.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"
+
+* Derby database
+URL: jdbc:derby://localhost:1527/memory:training
+Driver class name: org.apache.derby.jdbc.ClientDriver
+
+* MODULE 8 *********************************************************
+
+* DataWeave Transformation
+payload map ( payload01 , indexOfPayload01 ) -> {
+    Name: payload01.name,
+    BillingStreet: payload01.street,
+    BillingCity: (payload01.city default ""),
+    BillingState: payload01.state,
+    BillingPostalCode: payload01.postal,
+    BillingCountry: payload01.country
+}
