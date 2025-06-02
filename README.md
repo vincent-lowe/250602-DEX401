@@ -23,23 +23,17 @@ Meeting ID: 83922746989
 
 Class System Setup (pre-class): https://trailhead.salesforce.com/help?article=Computer-Setup-Guide-for-MuleSoft-Expert-Led-Classes#DEX401
 
-Advanced REST Client:
-https://github.com/advanced-rest-client/arc-electron/releases/tag/v17.0.9
+Advanced REST Client: https://github.com/advanced-rest-client/arc-electron/releases/tag/v17.0.9
 
-Postman:
-https://www.postman.com/downloads/
+Postman: https://www.postman.com/downloads/
 
-Help:
-https://help.mulesoft.com/
+Help: https://help.mulesoft.com/
 
-Docs:
-https://docs.mulesoft.com
+Docs: https://docs.mulesoft.com
 
-Log Analyzer Tool:
-https://help.mulesoft.com/s/article/Support-Log-file-analyzer-tool
+Log Analyzer Tool: https://help.mulesoft.com/s/article/Support-Log-file-analyzer-tool
 
-Status:
-https://status.mulesoft.com 
+Status: https://status.mulesoft.com 
    
 ------------------------------------------------------------------------------
 Java VM: https://docs.mulesoft.com/general/java-support
@@ -56,5 +50,5 @@ Classroom Playlist
 |Track Title|Artist|Notes|
 |-----------|------|-----|
 |Taxi (theme song)|Bob James||
-
+|Smooth Criminal|Luca Stricagnoli||
 
