@@ -16,7 +16,9 @@ eBook Redemption Key:					USR81EXDW4WM
 
 -------------------------------------------------------------------------------------------------------------------
 Survey Link:									https://www.research.net/r/trailheadacademy
-Survey ID:										<<survey ID>>
+
+Survey ID:										survey ID
+
 -------------------------------------------------------------------------------------------------------------------
 [Zoom Link:](https://salesforce-training.zoom.us/j/83922746989?pwd=h3Vo1DbwbQOzFnuHX8jgbOu9ysXTbt.1)
 Meeting ID: 83922746989
