@@ -18,7 +18,7 @@ eBook Redemption Key:					USR81EXDW4WM
 Survey Link:									https://www.research.net/r/trailheadacademy
 Survey ID:										<<survey ID>>
 -------------------------------------------------------------------------------------------------------------------
-[<<Zoom Link:>>](https://salesforce-training.zoom.us/j/83922746989?pwd=h3Vo1DbwbQOzFnuHX8jgbOu9ysXTbt.1)
+[Zoom Link:](https://salesforce-training.zoom.us/j/83922746989?pwd=h3Vo1DbwbQOzFnuHX8jgbOu9ysXTbt.1)
 Meeting ID: 83922746989
 
 Class System Setup (pre-class): https://trailhead.salesforce.com/help?article=Computer-Setup-Guide-for-MuleSoft-Expert-Led-Classes#DEX401
@@ -57,5 +57,6 @@ Classroom Playlist
 |Smooth Criminal|Luca Stricagnoli||
 |Blackbird|The Beatles||
 |The Hitter|Mark Erelli|Mark wrote this song about his son|
+|Ain't Misbehaving|Leon Redbone||
 
 
