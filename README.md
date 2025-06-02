@@ -37,9 +37,13 @@ Status: https://status.mulesoft.com
    
 ------------------------------------------------------------------------------
 Java VM: https://docs.mulesoft.com/general/java-support
+
 MuleSoft Pricing & Support: https://www.mulesoft.com/anypoint-pricing
+
 Einstein for Anypoint Code Builder: https://videos.mulesoft.com/watch/Z3Xzk8RFds5erbzLASev1W
+
 Log Analyzer: https://help.salesforce.com/s/articleView?language=en_US&id=Support-Log-file-analyzer-tool&type=1
+
 ------------------------------------------------------------------------------
 https://anypoint.mulesoft.com
 https://anypoint.mulesoft.com/exchange/?view=grid&type=app
@@ -51,4 +55,7 @@ Classroom Playlist
 |-----------|------|-----|
 |Taxi (theme song)|Bob James||
 |Smooth Criminal|Luca Stricagnoli||
+|Blackbird|The Beatles||
+|The Hitter|Mark Erelli|Mark wrote this song about his son|
+
 
