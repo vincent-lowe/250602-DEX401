@@ -60,5 +60,9 @@ Classroom Playlist
 |Blackbird|The Beatles||
 |The Hitter|Mark Erelli|Mark wrote this song about his son|
 |Ain't Misbehaving|Leon Redbone||
+|Here We Go Again|Ray Charles and Norah Jones|Genius Loves Company|
+|Sanford and Son TV Theme|Quincy Jones||
+|Dos Oruguitas|Steven Joseph||
+
 
 
