@@ -65,4 +65,34 @@ Classroom Playlist
 |Dos Oruguitas|Steven Joseph||
 
 
-
+-------------------------------------------------------------------------------------------------------------------
+Classroom Playlist
+-------------------------------------------------------------------------------------------------------------------
+	<flow name="getFlightsByID" doc:id="249479c9-b658-47ae-b3c6-626796c9a54c" >
+		<http:listener doc:name="GET /flights/{ID}" doc:id="c96e4c7e-dc10-412a-be98-1617bdccd118" config-ref="American_API_Listener_config" path="/flights/{ID}" />
+		<db:select doc:name="Select" doc:id="a7c0199e-330f-46c5-a9f3-8003d24ceb7b" config-ref="Database_Config" >
+			<db:sql ><![CDATA[SELECT * FROM american
+WHERE ID = :RID]]></db:sql>
+			<db:input-parameters ><![CDATA[#[{RID: attributes.uriParams.ID}]]]></db:input-parameters>
+		</db:select>
+		<ee:transform doc:name="to JSON" doc:id="1f3ee3a2-960c-4518-9e2c-43ab4c46908a" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+payload map ( payload01 , indexOfPayload01 ) -> {
+	ID: payload01.ID,
+	code: (payload01.code1 default "") ++ (payload01.code2 default ""),
+	price: payload01.price default 0,
+	departureDate: payload01.takeOffDate as String default "",
+	origin: payload01.fromAirport default "",
+	destination: payload01.toAirport default "",
+	emptySeats: payload01.seatsAvailable default 0,
+	plane: {
+		"type": payload01.planeType default "",
+		totalSeats: payload01.totalSeats default 0
+	}
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
