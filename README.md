@@ -67,6 +67,8 @@ Classroom Playlist
 |Hotel California|Moyun Official|acoustic, performed on antique hammered instrument|
 |City of New Orleans|Arlo Guthrie||
 |Man of Constant Sorrow|Geoff Castellucci|All the voices are Geoff|
+|Have You Ever Seen the Rain|Willie Nelson (feat. Paula Nelson)||
+
 
 
 
