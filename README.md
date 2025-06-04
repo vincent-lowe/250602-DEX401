@@ -68,6 +68,7 @@ Classroom Playlist
 |City of New Orleans|Arlo Guthrie||
 |Man of Constant Sorrow|Geoff Castellucci|All the voices are Geoff|
 |Have You Ever Seen the Rain|Willie Nelson (feat. Paula Nelson)||
+|Just Dropped In (To See What Condition My Condition Was In_|Willie Nelson|from the soundtrack of The Big Lebowski|
 
 
 
