@@ -38,6 +38,9 @@ Log Analyzer Tool: https://help.mulesoft.com/s/article/Support-Log-file-analyzer
 Status: https://status.mulesoft.com 
    
 ------------------------------------------------------------------------------
+
+Fundamentals Self Paced: https://trailhead.salesforce.com/users/strailhead/trailmixes/getting-started-with-anypoint-platform-dex-401
+
 Java VM: https://docs.mulesoft.com/general/java-support
 
 MuleSoft Pricing & Support: https://www.mulesoft.com/anypoint-pricing
