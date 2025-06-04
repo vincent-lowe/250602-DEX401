@@ -65,6 +65,8 @@ Classroom Playlist
 |Dos Oruguitas|Steven Joseph||
 |Analog Hero|Mark Erelli|Mark wrote this about his dad|
 |Hotel California|Moyun Official|acoustic, performed on antique hammered instrument|
+|City of New Orleans|Arlo Guthrie||
+|Man of Constant Sorrow|Geoff Castellucci||
 
 
 
