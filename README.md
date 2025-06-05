@@ -73,6 +73,9 @@ Classroom Playlist
 |Have You Ever Seen the Rain|Willie Nelson (feat. Paula Nelson)||
 |Just Dropped In (To See What Condition My Condition Was In_|Willie Nelson|from the soundtrack of The Big Lebowski|
 |Can't Find My Way Home|Bonnie Raitt||
+|Good Day for a Good Day|Michael Franti||
+|Sixteen Tons|Geoff Castellucci||
+
 
 
 
