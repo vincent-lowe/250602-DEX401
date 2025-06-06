@@ -77,6 +77,8 @@ Classroom Playlist
 |Sixteen Tons|Geoff Castellucci||
 |Midnight Train to Georgia|Gladys Knight||
 |Just Breathe|Willie Nelson (feat. Lukas Nelson)||
+|It Ain't Over Yet|Rodney Crowell||
+|Feeling Good|Nina Simone|Do NOT argue with the woman!|
 
 
 
