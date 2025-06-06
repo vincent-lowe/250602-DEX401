@@ -50,6 +50,11 @@ Einstein for Anypoint Code Builder: https://videos.mulesoft.com/watch/Z3Xzk8RFds
 Log Analyzer: https://help.salesforce.com/s/articleView?language=en_US&id=Support-Log-file-analyzer-tool&type=1
 
 ------------------------------------------------------------------------------
+
+Kyle Burke on Error Handling: https://blogs.mulesoft.com/dev-guides/how-to-tutorials/mule4-error-handling/
+
+DataWeave resource page: https://github.com/vincent-lowe/dataweave-learning
+
 https://anypoint.mulesoft.com
 https://anypoint.mulesoft.com/exchange/?view=grid&type=app
 
